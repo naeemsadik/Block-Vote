@@ -1,0 +1,26 @@
+{
+  "name": "block-vote-tests",
+  "version": "1.0.0",
+  "description": "Test scripts for Block-Vote contracts",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "test:voting": "hardhat test test_voting.js",
+    "test:national": "hardhat test test_national.js",
+    "test:rollup": "hardhat test test_rollup.js",
+    "test:all": "hardhat test"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "chai": "^4.3.7",
+    "hardhat": "^2.12.0",
+    "hardhat-gas-reporter": "^1.0.9"
+  },
+  "hardhat": {
+    "gasReporter": {
+      "enabled": true,
+      "currency": "USD",
+      "gasPrice": 21
+    }
+  }
+}
