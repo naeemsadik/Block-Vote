@@ -1,0 +1,12 @@
+{
+  "name": "block-vote-contracts",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "ethers": "^6.8.0",
+    "hardhat": "^2.25.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.5"
+  }
+}
